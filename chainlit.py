@@ -1,7 +1,8 @@
 import os
-import langchain.prompts.PromptTemplate
-import langchain.llms.OpenAI
-import langchain.chains.LLMChain
+import langchain
+from langchain import PromptTemplate
+from langchain import OpenAI
+from langchain import LLMChain
 import chainlit as cl
 from constants import openai_key
 
